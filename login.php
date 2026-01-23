@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-card">
             <h1>☕ 発注管理</h1>
-            <p class="text-center mb-3">海浜幕張店</p>
+            <p class="text-center mb-3">〇〇店</p>
             
             <?php if ($error): ?>
                 <div class="alert alert-danger"><?php echo h($error); ?></div>
