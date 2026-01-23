@@ -31,7 +31,7 @@ include 'includes/header.php';
     <div class="flex-between mb-3">
         <div>
             <p>ようこそ、<strong><?php echo h($_SESSION['username']); ?></strong> さん</p>
-            <p style="color: #7F8C8D;">海浜幕張駅ナカ店 - <?php echo date('Y年m月d日'); ?></p>
+            <p style="color: #7F8C8D;">〇〇店 - <?php echo date('Y年m月d日'); ?></p>
         </div>
     </div>
     

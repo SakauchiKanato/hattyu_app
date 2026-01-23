@@ -36,13 +36,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ログイン - ドトール発注管理</title>
+    <title>ログイン - 発注管理</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="login-container">
         <div class="login-card">
-            <h1>☕ ドトール発注管理</h1>
+            <h1>☕ 発注管理</h1>
             <p class="text-center mb-3">海浜幕張店</p>
             
             <?php if ($error): ?>

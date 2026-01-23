@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($page_title) ? h($page_title) : 'ドトール発注管理'; ?></title>
+    <title><?php echo isset($page_title) ? h($page_title) : '発注管理'; ?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
         <div class="container">
-            <h1 class="logo">☕ ドトール発注管理</h1>
+            <h1 class="logo">☕ 発注管理</h1>
             <?php if (isset($_SESSION['user_id'])): ?>
             <nav class="main-nav">
                 <a href="index.php">🏠 ダッシュボード</a>
