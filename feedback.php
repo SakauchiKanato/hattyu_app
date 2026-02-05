@@ -147,7 +147,7 @@ include 'includes/header.php';
                         <th style="min-width: 150px;">商品名</th>
                         <th>予測星</th>
                         <th>予測消費量</th>
-                        <th style="background: #e9f7ef; color: #6B4423;">閉店時の在庫数</th>
+                        <th style="background: #FCF3CF; color: #F39C12;">閉店時の在庫数</th>
                         <th>（開始量）</th>
                         <th>計算された消費量</th>
                         <th>差分</th>
